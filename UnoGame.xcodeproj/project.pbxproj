@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DD62B92A2BDE74005AED10 /* card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62B22A2BDE74005AED10 /* card.cpp */; };
+		17DD62BA2A2BDE74005AED10 /* game_components.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62B52A2BDE74005AED10 /* game_components.cpp */; };
+		17DD62BB2A2BDE74005AED10 /* uno_game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62B62A2BDE74005AED10 /* uno_game.cpp */; };
+		17DD62C02A2BDE8E005AED10 /* logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62BC2A2BDE8E005AED10 /* logger.cpp */; };
+		17DD62C12A2BDE8E005AED10 /* stats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62BE2A2BDE8E005AED10 /* stats.cpp */; };
+		17DD62C62A2BDEAD005AED10 /* SmartPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62C32A2BDEAD005AED10 /* SmartPlayer.cpp */; };
+		17DD62C72A2BDEAD005AED10 /* StupidPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62C42A2BDEAD005AED10 /* StupidPlayer.cpp */; };
+		17DD62C92A2BDEE1005AED10 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DD62C82A2BDEE1005AED10 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		170973C12A2BDAD200F7B57C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		170973C32A2BDAD200F7B57C /* UnoGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnoGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DD62B22A2BDE74005AED10 /* card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = card.cpp; sourceTree = "<group>"; };
+		17DD62B32A2BDE74005AED10 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		17DD62B42A2BDE74005AED10 /* game_components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_components.h; sourceTree = "<group>"; };
+		17DD62B52A2BDE74005AED10 /* game_components.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game_components.cpp; sourceTree = "<group>"; };
+		17DD62B62A2BDE74005AED10 /* uno_game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uno_game.cpp; sourceTree = "<group>"; };
+		17DD62B72A2BDE74005AED10 /* uno_game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uno_game.h; sourceTree = "<group>"; };
+		17DD62B82A2BDE74005AED10 /* events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = events.h; sourceTree = "<group>"; };
+		17DD62BC2A2BDE8E005AED10 /* logger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = logger.cpp; sourceTree = "<group>"; };
+		17DD62BD2A2BDE8E005AED10 /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		17DD62BE2A2BDE8E005AED10 /* stats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stats.cpp; sourceTree = "<group>"; };
+		17DD62BF2A2BDE8E005AED10 /* stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stats.h; sourceTree = "<group>"; };
+		17DD62C22A2BDEAD005AED10 /* SmartPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SmartPlayer.hpp; sourceTree = "<group>"; };
+		17DD62C32A2BDEAD005AED10 /* SmartPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmartPlayer.cpp; sourceTree = "<group>"; };
+		17DD62C42A2BDEAD005AED10 /* StupidPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StupidPlayer.cpp; sourceTree = "<group>"; };
+		17DD62C52A2BDEAD005AED10 /* StupidPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StupidPlayer.hpp; sourceTree = "<group>"; };
+		17DD62C82A2BDEE1005AED10 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		170973C02A2BDAD200F7B57C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		170973BA2A2BDAD200F7B57C = {
+			isa = PBXGroup;
+			children = (
+				170973C52A2BDAD200F7B57C /* UnoGame */,
+				170973C42A2BDAD200F7B57C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		170973C42A2BDAD200F7B57C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				170973C32A2BDAD200F7B57C /* UnoGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		170973C52A2BDAD200F7B57C /* UnoGame */ = {
+			isa = PBXGroup;
+			children = (
+				17DD62C82A2BDEE1005AED10 /* main.cpp */,
+				17859F682A2BDCCB00AAB735 /* player */,
+				17859F672A2BDCC300AAB735 /* utils */,
+				17859F662A2BDCB800AAB735 /* game */,
+			);
+			path = UnoGame;
+			sourceTree = "<group>";
+		};
+		17859F662A2BDCB800AAB735 /* game */ = {
+			isa = PBXGroup;
+			children = (
+				17DD62B22A2BDE74005AED10 /* card.cpp */,
+				17DD62B32A2BDE74005AED10 /* card.h */,
+				17DD62B82A2BDE74005AED10 /* events.h */,
+				17DD62B52A2BDE74005AED10 /* game_components.cpp */,
+				17DD62B42A2BDE74005AED10 /* game_components.h */,
+				17DD62B62A2BDE74005AED10 /* uno_game.cpp */,
+				17DD62B72A2BDE74005AED10 /* uno_game.h */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+		17859F672A2BDCC300AAB735 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				17DD62BC2A2BDE8E005AED10 /* logger.cpp */,
+				17DD62BD2A2BDE8E005AED10 /* logger.h */,
+				17DD62BE2A2BDE8E005AED10 /* stats.cpp */,
+				17DD62BF2A2BDE8E005AED10 /* stats.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		17859F682A2BDCCB00AAB735 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				17DD62C32A2BDEAD005AED10 /* SmartPlayer.cpp */,
+				17DD62C22A2BDEAD005AED10 /* SmartPlayer.hpp */,
+				17DD62C42A2BDEAD005AED10 /* StupidPlayer.cpp */,
+				17DD62C52A2BDEAD005AED10 /* StupidPlayer.hpp */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		170973C22A2BDAD200F7B57C /* UnoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170973CA2A2BDAD200F7B57C /* Build configuration list for PBXNativeTarget "UnoGame" */;
+			buildPhases = (
+				170973BF2A2BDAD200F7B57C /* Sources */,
+				170973C02A2BDAD200F7B57C /* Frameworks */,
+				170973C12A2BDAD200F7B57C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnoGame;
+			productName = UnoGame;
+			productReference = 170973C32A2BDAD200F7B57C /* UnoGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		170973BB2A2BDAD200F7B57C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					170973C22A2BDAD200F7B57C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 170973BE2A2BDAD200F7B57C /* Build configuration list for PBXProject "UnoGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 170973BA2A2BDAD200F7B57C;
+			productRefGroup = 170973C42A2BDAD200F7B57C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				170973C22A2BDAD200F7B57C /* UnoGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		170973BF2A2BDAD200F7B57C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DD62C62A2BDEAD005AED10 /* SmartPlayer.cpp in Sources */,
+				17DD62C72A2BDEAD005AED10 /* StupidPlayer.cpp in Sources */,
+				17DD62BB2A2BDE74005AED10 /* uno_game.cpp in Sources */,
+				17DD62B92A2BDE74005AED10 /* card.cpp in Sources */,
+				17DD62C12A2BDE8E005AED10 /* stats.cpp in Sources */,
+				17DD62BA2A2BDE74005AED10 /* game_components.cpp in Sources */,
+				17DD62C92A2BDEE1005AED10 /* main.cpp in Sources */,
+				17DD62C02A2BDE8E005AED10 /* logger.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		170973C82A2BDAD200F7B57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		170973C92A2BDAD200F7B57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		170973CB2A2BDAD200F7B57C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		170973CC2A2BDAD200F7B57C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		170973BE2A2BDAD200F7B57C /* Build configuration list for PBXProject "UnoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170973C82A2BDAD200F7B57C /* Debug */,
+				170973C92A2BDAD200F7B57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170973CA2A2BDAD200F7B57C /* Build configuration list for PBXNativeTarget "UnoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				170973CB2A2BDAD200F7B57C /* Debug */,
+				170973CC2A2BDAD200F7B57C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 170973BB2A2BDAD200F7B57C /* Project object */;
+}
